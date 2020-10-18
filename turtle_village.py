@@ -1,0 +1,25 @@
+from turtle import forward, shape, left, right, exitonclick
+from math import sqrt
+from turtle import speed
+speed(0)
+shape('turtle')
+for i in range(10):
+    left(90)
+    forward(50)
+    right(90)
+    forward(50)
+    right(135)
+    forward(sqrt(2)*50)
+    left(135)
+    forward(50)
+    left(90)
+    forward(50)
+    left(45)
+    forward((sqrt(2)*50)/2)
+    left(90)
+    forward((sqrt(2)*50)/2)
+    left(90)
+    forward(sqrt(2)*50)
+    left(45)
+    forward(25)
+exitonclick()
